@@ -42,6 +42,32 @@ body {
     }
   }
 
+  @keyframes volantes {
+    0%   {color: red; transform: scale(1);}
+    25%  {color: yellow; transform: scale(1.1);}
+    50%  {color: blue; transform: scale(1.2);}
+    100% {color: green; transform: scale(1);}
+  }
+
+  h1 {
+    animation-name: volantes;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes ven {
+    0%   {color: red; transform: scale(1);}
+    25%  {color: yellow; transform: scale(1.1);}
+    50%  {color: blue; transform: scale(1.2);}
+    100% {color: green; transform: scale(1);}
+  }
+
+  .ven {
+    animation-name: ven;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+  }
+
   .footer {
     display: flex;
     justify-content: space-around;
