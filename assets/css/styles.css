@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', sans-serif;
   }
   
   .navbar {
@@ -73,4 +73,53 @@ body {
     background-color: #333;
     color: #fff;
     padding: 10px;
+  }
+
+/* html con productos */
+
+.navbar2 {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: #333;
+  }
+  
+  .navbar2 a {
+    color: #f2f2f2;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+    text-align: center;
+  }
+  
+  .navbar2 a:hover {
+    background: #ddd;
+    color: black;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .navbar2 {
+      grid-template-columns: auto;
+    }
+  }
+  
+  .logo2 {
+    width: 50px;
+    height: auto;
+  }
+
+  /* cajas de productos*/
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+  }
+  
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
   }
