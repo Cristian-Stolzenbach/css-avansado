@@ -116,11 +116,53 @@ body {
     padding: 10px;
   }
   
-  .grid-item {
+  /*.grid-item {
     background-color: rgba(255, 255, 255, 0.8);
     border: 1px solid rgba(0, 0, 0, 0.8);
     padding: 20px;
     font-size: 14px;
     text-align: center;
+    border-radius: 40%;
   }
+  */
+  .grid-item1 {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 14px;
+    text-align: center;
+    border-radius: 40%;
+  }
+  .grid-item2 {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 14px;
+    text-align: center;
+    border-radius: 40%;
+  }
+  .grid-item3 {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 14px;
+    text-align: center;
+    border-radius: 40%;
+  }
+.imagen {
+    border-radius: 50%;
+    width: 100px; 
+    height: 100px; 
+    transition: transform .9s;
+}
 
+.imagen:hover {
+    transform: scale(3.5);
+
+}
+
+.navbar2 a.section11:hover ~ .container div.section11,
+.navbar2 a.section22:hover ~ .container div.section22,
+.navbar2 a.section33:hover ~ .container div.section33 {
+  display: block;
+}
